@@ -1,0 +1,12 @@
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\bin\Debug\net6.0\RennjayBreakfast.Contracts.deps.json
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\bin\Debug\net6.0\RennjayBreakfast.Contracts.dll
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\bin\Debug\net6.0\RennjayBreakfast.Contracts.pdb
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\obj\Debug\net6.0\RennjayBreakfast.Contracts.csproj.AssemblyReference.cache
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\obj\Debug\net6.0\RennjayBreakfast.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\obj\Debug\net6.0\RennjayBreakfast.Contracts.AssemblyInfoInputs.cache
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\obj\Debug\net6.0\RennjayBreakfast.Contracts.AssemblyInfo.cs
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\obj\Debug\net6.0\RennjayBreakfast.Contracts.csproj.CoreCompileInputs.cache
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\obj\Debug\net6.0\RennjayBreakfast.Contracts.dll
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\obj\Debug\net6.0\refint\RennjayBreakfast.Contracts.dll
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\obj\Debug\net6.0\RennjayBreakfast.Contracts.pdb
+C:\users\rennj6908\Documents\Trainings\rennjaybreakfast\rennjaybreakfast.contracts\obj\Debug\net6.0\ref\RennjayBreakfast.Contracts.dll

@@ -1,0 +1,2 @@
+@id = 80fed376-aadc-4214-a74d-2e3b17801d25
+DELETE https://localhost:7076/{{id}}

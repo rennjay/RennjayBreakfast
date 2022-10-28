@@ -1,0 +1,18 @@
+@id = 80fed376-aadc-4214-a74d-2e3b17801d25
+PUT https://localhost:7076/{{id}}
+Content-Type: application/json
+{
+    "name": "V",
+    "description": "",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omelette",
+        "Salad"
+    ],
+    "Sweet": [
+        "Cookie"
+    ]
+}
