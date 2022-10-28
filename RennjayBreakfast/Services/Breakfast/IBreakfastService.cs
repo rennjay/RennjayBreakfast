@@ -1,9 +1,11 @@
+using ErrorOr;
+
 namespace RennjayBreakfast.Services.Breakfast
 {
     public interface IBreakfastService
     {
         void CreateBreakfast(RennjayBreakfast.Models.Breakfast request);
-        Models.Breakfast GetBreakfast(Guid id);
+        ErrorOr<Models.Breakfast> GetBreakfast(Guid id);
         void DeleteBreakfast(Guid id);
     }
 }

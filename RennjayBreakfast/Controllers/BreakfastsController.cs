@@ -1,3 +1,4 @@
+using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 using RennjayBreakfast.Contracts.Breakfast;
 using RennjayBreakfast.Models;
@@ -49,9 +50,20 @@ namespace RennjayBreakfast.Controllers
         [HttpGet("{id:guid}")]
         public IActionResult GetBreakfast(Guid id)
         {
-            var breakfast = _breakfastService.GetBreakfast(id);
+            ErrorOr<Breakfast> breakfastResult = _breakfastService.GetBreakfast(id);
 
-            var response = new BreakfastResponse(
+            breakfastResult.Match(
+                breakfast => Ok(MapToBreakfastResponse(breakfastResult.Value)),
+                errors => Problem());
+
+            BreakfastResponse response = MapToBreakfastResponse(breakfast);
+
+            return Ok(response);
+        }
+
+        private static BreakfastResponse MapToBreakfastResponse(ErrorOr<Breakfast> breakfast)
+        {
+            return new BreakfastResponse(
                 breakfast.Id,
                 breakfast.Name,
                 breakfast.Description,
@@ -61,8 +73,6 @@ namespace RennjayBreakfast.Controllers
                 breakfast.Savory,
                 breakfast.Sweet
             );
-
-            return Ok(response);
         }
 
         [HttpPut("{id:guid}")]
