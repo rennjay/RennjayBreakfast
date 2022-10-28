@@ -8,6 +8,11 @@ namespace RennjayBreakfast.Services.Breakfast
             _breakfasts.Add(request.Id, request);
         }
 
+        public void DeleteBreakfast(Guid id)
+        {
+            _breakfasts.Remove(id);
+        }
+
         public Models.Breakfast GetBreakfast(Guid id)
         {
             return _breakfasts[id];

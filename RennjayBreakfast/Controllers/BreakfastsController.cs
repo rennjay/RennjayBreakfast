@@ -68,13 +68,40 @@ namespace RennjayBreakfast.Controllers
         [HttpPut("{id:guid}")]
         public IActionResult UpsertBreakfast(Guid id, UpsertBreakfastRequest request)
         {
-            return Ok(request);
+            var breakfast = _breakfastService.GetBreakfast(id);
+
+            if (breakfast is null)
+            {
+                breakfast = new Breakfast(Guid.NewGuid(),
+                                          request.Name,
+                                          request.Description,
+                                          request.StartDateTime,
+                                          request.EndDateTime,
+                                          DateTime.UtcNow,
+                                          request.Savory,
+                                          request.Sweet);
+
+                _breakfastService.CreateBreakfast(breakfast);
+            }
+
+            var response = new BreakfastResponse(breakfast.Id,
+                                                 breakfast.Name,
+                                                 breakfast.Description,
+                                                 breakfast.StartDateTime,
+                                                 breakfast.EndDateTime,
+                                                 breakfast.LastModifiedTime,
+                                                 breakfast.Savory,
+                                                 breakfast.Sweet);
+
+            //TODO: Return 201 if new breakfast is created
+            return NoContent();
         }
 
         [HttpDelete("{id:guid}")]
         public IActionResult DeleteBreakfast(Guid id)
         {
-            return Ok(id);
+            _breakfastService.DeleteBreakfast(id);
+            return NoContent();
         }
     }
 }

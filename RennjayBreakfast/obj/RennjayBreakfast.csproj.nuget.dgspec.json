@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\RennjayBreakfast\\RennjayBreakfast.csproj": {}
+    "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\rennjaybreakfast\\RennjayBreakfast.csproj": {}
   },
   "projects": {
     "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\RennjayBreakfast.Contracts\\RennjayBreakfast.Contracts.csproj": {
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\RennjayBreakfast\\RennjayBreakfast.csproj": {
+    "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\rennjaybreakfast\\RennjayBreakfast.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\RennjayBreakfast\\RennjayBreakfast.csproj",
+        "projectUniqueName": "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\rennjaybreakfast\\RennjayBreakfast.csproj",
         "projectName": "RennjayBreakfast",
-        "projectPath": "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\RennjayBreakfast\\RennjayBreakfast.csproj",
+        "projectPath": "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\rennjaybreakfast\\RennjayBreakfast.csproj",
         "packagesPath": "C:\\Users\\rennj6908\\.nuget\\packages\\",
-        "outputPath": "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\RennjayBreakfast\\obj\\",
+        "outputPath": "C:\\users\\rennj6908\\Documents\\Trainings\\rennjaybreakfast\\rennjaybreakfast\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

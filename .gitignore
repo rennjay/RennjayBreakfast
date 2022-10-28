@@ -1,0 +1,5 @@
+GetBreakfastRequest.http
+bin/
+obj/
+RennjayBreakfast/obj/Debug/net6.0/RennjayBreakfast.pdb
+RennjayBreakfast/obj/Debug/net6.0/ref/RennjayBreakfast.dll

@@ -4,5 +4,6 @@ namespace RennjayBreakfast.Services.Breakfast
     {
         void CreateBreakfast(RennjayBreakfast.Models.Breakfast request);
         Models.Breakfast GetBreakfast(Guid id);
+        void DeleteBreakfast(Guid id);
     }
 }
